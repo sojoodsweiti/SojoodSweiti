@@ -1,0 +1,440 @@
+/* -----------------GENERAL ------------------ */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+ /* background-color: rgba(215, 230, 255, 0.642);*/
+ background-color:  rgb(173, 203, 229);
+}
+
+
+/*------------------ TRANSITION ----------------------*/
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+/* -----------------DESKTOP NAV bar ---------------- */
+nav,
+.nav-links {
+  display: flex;
+}
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+a:hover {
+  color:  rgb(150, 129, 193);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color:  rgb(150, 129, 193);
+}
+.logo {
+  font-size: 2rem;
+}
+.logo:hover {
+  cursor: default;
+}
+
+/* ------------------- HAMBURGER MENU ---------------- */
+#hamburger-nav {
+  display: none;
+}
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}
+.hamburger-icon span {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transition: all 0.3 ease-in-out;
+}
+.menu-links {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  width: fit-content;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3 ease-in-out;
+}
+.menu-links a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+.menu-links li {
+  list-style: none;
+}
+.menu-links.open {
+  max-height: 300px;
+}
+.hamburger-icon.open span:first-child {
+  transform: rotate(45deg) translate(10px, 5px);
+}
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-icon.open span:last-child {
+  transform: rotate(-45deg) translate(10px, -5px);
+}
+.hamburger-icon span:first-child {
+  transform: none;
+}
+.hamburger-icon span:first-child {
+  opacity: 1;
+}
+.hamburger-icon span:first-child {
+  transform: none;
+}
+
+/* ----------------- SECTIONS  ------------------ */
+
+section {
+  padding-top:6vh;
+  padding-bottom:8vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+/* ----------- PROFILE SECTION ----------------- */
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  
+  
+}
+#about {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+
+  
+}
+.section__text {
+  align-items:baseline;
+  text-align: center;
+}
+.section__text p {
+  font-weight: 300;
+}
+.section__text__p1 {
+  text-align: center;
+}
+.section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+.title {
+  font-size: 2rem;
+  text-align: center;
+}
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.profile__details-container {
+  
+  padding: 1.5rem;
+  flex: 1;
+  background-color:  rgb(36, 87, 132);
+  border-radius: 2rem;
+  text-align:justify;
+  width: 40rem;
+  
+}
+.description__paragraph{
+ color: rgb(30, 27, 27);
+}
+
+/* --- profile ICONS ------ */
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+/* ---- profile BUTTONS ----- */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+.btn-color-1:hover,
+.btn-color-2:hover {
+  background: rgb(152, 139, 178);
+  color: white;
+}
+.btn-color-1 {
+ 
+  background: rgb(215, 202, 246);
+}
+.btn-color-2 {
+  background: none;
+}
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+.btn-container {
+  gap: 1rem;
+}
+
+
+/* ----------------------- Internship SECTION ------------------ */
+#internship {
+  position: relative;
+}
+.intern-container {
+  justify-content: center;
+  flex-direction: column;
+  background-color:  rgb(36, 87, 132);
+  border-radius: 2rem;
+}
+.intern-container {
+  display: flex;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+}
+.intern-container article{
+  display: flex;
+  width: 25rem;
+  justify-content:baseline;
+  gap: 1rem;
+  padding: 0.1rem; 
+}
+.intern__details-container {
+  /*padding: 1.5rem;*/
+  display: flex;
+  flex: 1;
+  text-align:justify;
+  display: inline-block;
+  
+
+}
+.intern{
+  display: flex;
+  font-size: 16px;
+  color: rgb(219, 199, 243);
+  padding: 0.1rem 0.5rem;
+  width: 16rem;
+}
+.intern_p1{
+  display: flex;
+  font-size: 16px;
+  color: rgb(219, 199, 243);
+  padding: 0.1rem 0.5rem;
+  width: 16rem;
+}
+.intern_p{
+  display: flex;
+  font-size:medium;
+  color: rgb(185, 169, 202);
+  padding: 0.1rem ;
+  
+}
+.about-pic {
+  border-radius: 2rem;
+}
+
+/*---------------------Courses Section ----------*/
+.course-article article{
+  display: flex;
+  width: 30rem;
+  justify-content:baseline;
+  gap: 1rem;
+  padding: 0.1rem; 
+}
+.btn-color-4,
+.btn-color-3 {
+  border: rgb(243, 240, 255) 0.1rem solid;
+}
+.btn-color-4:hover,
+.btn-color-3:hover {
+  cursor: pointer;
+}
+.btn-color-4{
+  background: rgb(215, 202, 246);
+  color: black;
+}
+.btn-color-3:hover,
+.btn-color-4:hover {
+  background: rgb(147, 130, 180);
+}
+.btn-color-3 {
+  background: none;
+}
+.btn-color-3:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-container-c {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  gap: 1rem;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style:inset;
+  border-width: 1px;
+  border-color: rgb(115, 162, 203);
+  
+}
+
+
+/*----------------Technologies SECTION ------------*/
+
+#technologies{
+  position: relative;
+}
+
+.tech-details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background-color:  rgb(36, 87, 132);
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 1rem; 
+}
+
+article .icon {
+  cursor: default;
+}
+.t-icon {
+  cursor: pointer;
+  height: 4rem;
+}
+
+
+
+/*----------- CONTACT Section ------*/
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 55vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(150, 129, 193) 0.1rem solid;
+  color:  rgb(150, 129, 193);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+/* ------- FOOTER SECTION --------- */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  text-align: center;
+}

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENG.Sojood</title>
+    <link rel="icon" type="image/x-icon" href="./assets/icons-cat.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <!----   Navigation bar ----->
+    <!--  Navigation bar for desktop app-->
+    <nav id="desktop-nav">
+      <div class="logo">Sojood Sweiti</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#internship">Experience</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#technologies">Technologies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--  Navigation burger for mobile version-->
+    <nav id="hamburger-nav">
+      <div class="logo">Sojood Sweiti </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#internship" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#courses" onclick="toggleMenu()">Courses</a></li>
+          <li><a href="#technologies" onclick="toggleMenu()">Technologies</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <!------- Profile Section -->
+    <section id="profile">
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sojood Sweiti</h1>
+        <p class="section__text__p2">QA Automation Engineer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="location.href='https://drive.google.com/file/d/1E5WGWXFB9JoJE2awaVg7zFseCrU1uRio/view?usp=sharing'"> Download CV </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info </button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+            onclick="location.href='https://www.linkedin.com/in/sojood-sweiti-9b3041216/'"/>
+          <img src="./assets/github.png" alt="My Github profile" class="icon"
+            onclick="location.href='https://github.com/sojoodsweiti'"/>
+        </div>
+      </div></section>
+      <section id="about">
+      <div class="section__text">  
+        <div class="about-details-container">
+            <div class="intern-container">
+              <!--<img src="./assets/user.png" alt="Eng icon" class="icon"/>-->
+              <h3>About Me</h3>
+              <p class="intern_p">I hold a Bachelor's in Computer Systems Engineering.<br/>
+                I'm interested in the QA field.</br> 
+                With a solid foundation in technology and skills ensuring high-quality software. <br />
+                looking forward to contributing my expertise in testing methodologies to the field.</p>
+            </div>  
+          </div>
+        </div>
+    </section> <!-- Porfile-->
+
+    <!------- Internship history section -------->
+    <section id="internship">
+      
+      <h2 class="title"> Internship History </h2>
+        <div class="intern-container">
+           <h2> Quality Assurance Automation</h2>
+           <article>
+            <p class="intern"> ASAL Technologies</p> 
+            <p class="intern_p1">Aug.2022 - Dec.2022</p>
+          </article>
+           <div class="intern__details-container">
+           <p class="intern_p">I have gained experience in web fundamentals, API testing, and QA. Created test plans.<br/>
+            I was designed and executed test cases, reported defects using JIRA.<br/> Additionally,
+             I have experience in manual testing for web and mobile applications. <br/> 
+            I gained expertise in API testing with Postman.
+            And used Selenium with Python to perform UI testing.<br/> </p>
+          </div> 
+      </div>  
+    </section><!-- Internship-->
+
+    <!------------- Courses section --------->
+    <section id="courses">
+      <h2 class="title"> Courses </h2>
+      <div class="intern-container">
+          <div class="intern__details-container">
+             <h3>QA Manual Software Testing</h3>
+             <div class="course-article">
+              <article >
+              <p class="intern"> The Hope International</p> 
+              <p class="intern_p1">Jun.2022 - Aug.2022</p>
+              </article>
+             </div>
+             <div class="intern__details-container">
+                <p class="intern_p"> The training program encompasses all the fundamental aspects of software testing.</br>
+                 Such as techniques, management, and essential tools. It covers theoretical concepts. </br>
+                 And provides hands-on practice to equip me with the necessary skills for a successful software testing career.</p>
+              </div> 
+              <div class="btn-container-c">
+                <button class="btn btn-color-3" onclick="location.href='https://drive.google.com/drive/folders/11iIjA7n3JYv78ehN97DEDX1aLk57SiJy?usp=drive_link'"> Detalis </button>
+                <button class="btn btn-color-4" onclick=
+                "location.href='https://drive.google.com/file/d/1hh99_dlsPggMcrLf3bTel4iV_KjRMQss/view?usp=sharing'"> Certificate </button>
+              </div>
+              <hr>
+          </div>
+        </div><!--Course 1-->
+      <div class="intern-container">
+          <div class="intern__details-container">
+            <h3>QA Automation Software Testing</h3>
+            <div class="course-article">
+             <article >
+             <p class="intern"> The Hope International</p> 
+             <p class="intern_p1">Aug.2022 - Nov.2022</p>
+             </article>
+           </div>
+             <div class="intern__details-container">
+               <p class="intern_p"> As a result of this comprehensive program, I have acquired a wide range of valuable skills
+                 of software testing.</br>
+                 With my advanced knowledge of performance testing, mobile testing, Agile methodologies, </br>
+                 API automation, and Selenium WebDriver, I now have expertise in a multitude of areas.</p>
+             </div> 
+             <div class="btn-container-c">
+               <button class="btn btn-color-3" onclick="location.href='https://drive.google.com/drive/folders/1YDBPQpF7vUQNldVQhaOO0lOobZvPRvgA?usp=drive_link'"> Details</button>
+               <button class="btn btn-color-4" onclick=
+               "location.href='https://drive.google.com/file/d/10fkOgEYkSohvjDZvYFDMqHd7nwleNt3u/view?usp=sharing'"> Certificate </button>
+             </div>
+             <hr>
+           </div>
+        </div><!--Course 2-->
+        <div class="intern-container"> 
+           <div class="intern__details-container">
+            <h3>QA Comprehensive Training</h3>
+            <div class="course-article">
+             <article >
+             <p class="intern"> Knowledge Academy</p> 
+             <p class="intern_p1">Jul.2023 - In Progress</p>
+             </article>
+           </div>
+             <div class="intern__details-container">
+               <p class="intern_p"> I'm currently undergoing a 6-months quality assurance course that covers ISTQB certification,</br>
+                 quality assurance, and software development life cycle. I'm also learning about defect management.</br>
+                 API testing with Postman,and automation testing with Cypress, Selenium, and Appium. </br>
+                 This training is preparing me for a successful career in software testing and automation. </p>
+             </div> 
+             <div class="btn-container-c">
+               <button class="btn btn-color-3" onclick="
+                location.href='https://drive.google.com/drive/folders/1n4qSJjD9Q3HU8t5MO4Tj3Hm9BFICaB4W?usp=drive_link'"> Details</button>
+             </div>
+             <hr>
+           </div>
+        </div><!--Course 3-->
+        <div class="intern-container">
+           <div class="intern__details-container">
+            <h3>Project Management Professional PMP</h3>
+            <div class="course-article">
+             <article >
+             <p class="intern"> The Hope International</p> 
+             <p class="intern_p1">Jul.2023 - In Progress</p>
+             </article>
+           </div>
+             <div class="intern__details-container">
+               <p class="intern_p">I am currently undergoing a 2-month PMP (Project Management Professional) course.</br>
+                  It is designed to provide the knowledge and skills I need to excel at project management. </br>
+                This course covers project management concepts, Agile methodology, and tools to lead projects,</br> 
+                collaborate with teams, manage risks, and ensure outcomes.</p>
+             </div> 
+             <div class="btn-container-c">
+               <button class="btn btn-color-3" onclick="
+               location.href='https://drive.google.com/drive/folders/1Gy33PdsvhJDZgTjVH2dMhzMYb3SFc67j?usp=drive_link'"> Details</button>
+             </div>
+             <hr>
+            </div>
+        </div> <!--Course 4-->
+      
+    </section><!--Courses -->
+
+    <!--------------- Technologies  ------------>
+    <section id="technologies">
+      <h1 class="title">Technologies</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="tech-details-container">
+            <div class="article-container">
+              <article>
+                <img src="./assets/java.png" alt="Tech icon" class="t-icon"/>
+                <img src="./assets/python.png" alt=" Tech icon" class="t-icon"/>
+                <img src="./assets/js.png" alt=" Tech icon" class="t-icon"/>
+                <img src="./assets/selenium.png" alt=" Tech icon" class="t-icon"/>
+                <img src="./assets/cypress.jpg" alt=" Tech icon" class="t-icon"/>
+                <img src="./assets/pytest.png" alt=" Tech icon" class="t-icon"/>
+                <img src="./assets/appium.png" alt=" Tech icon" class="t-icon"/>
+                
+              </article>
+            </div>
+            <div class="article-container">
+              <article>
+                <img src="./assets/JMeter.png" alt=" Tech icon" class="t-icon"/>
+                <img src="./assets/Jira.png" alt=" Tech icon" class="t-icon"/>
+                <img src="./assets/postman.png" alt=" Tech icon" class="t-icon"/>
+                <img src="./assets/html-5.png" alt="Tech icon" class="t-icon"/>
+                <img src="./assets/css-3.png" alt="Tech icon" class="t-icon"/>
+                
+              </article>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--Technologies -->
+
+
+   <!-------Contacy Me -------------->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+          <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHwrvPkhHDrQbHVtdLBgSTgpHKtbLxKvChvDrdJvHprFGSdWdXdjtsFXjPCRxlqvscGtPTq">
+            sojoodsweiti1@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
+          <p><a href="https://www.linkedin.com/in/sojood-sweiti-9b3041216/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section> <!--Contact-->
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#profile">About</a></li>
+            <li><a href="#internship">Experience</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Sojood Sweiti. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
