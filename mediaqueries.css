@@ -3,8 +3,12 @@
   section{
     margin-left: 2rem;
   }
+  p{
+    text-align: justify;
+  }
+  
   #profile {
-    /*height: 65vh;/*
+    /*height: 65vh;*/
    margin-bottom: 2rem;
     
   }
