@@ -4,13 +4,13 @@
     margin-left: 2rem;
   }
   #profile {
-    height: 45vh;
-    margin-bottom: 2rem;
+    /*height: 65vh;/*
+   margin-bottom: 2rem;
     
   }
 
   #about {
-    height: 65vh;
+    /*height: 120vh;*/
     margin-bottom: 0;
     padding-bottom: 1rem;
     display: inline-block;
