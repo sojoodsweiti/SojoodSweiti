@@ -299,6 +299,10 @@ section {
 }
 
 /*---------------------Courses Section ----------*/
+.courses{
+  display: flex;
+  justify-content: center;
+}
 .course-article article{
   display: flex;
   width: 30rem;
@@ -306,6 +310,17 @@ section {
   gap: 1rem;
   padding: 0.1rem; 
 }
+.course-container {
+  justify-content: center;
+  flex-direction: column;
+  background-color:  rgb(36, 87, 132);
+  border-radius: 2rem;
+  display: flex;
+  padding: 1.5rem;
+  margin: 2rem;
+  width: 35rem;
+}
+
 .btn-color-4,
 .btn-color-3 {
   border: rgb(243, 240, 255) 0.1rem solid;
@@ -356,14 +371,15 @@ hr {
   border-radius: 2rem;
   display: flex;
   padding: 1.5rem;
-  margin-top: 1.5rem;
+  margin: 2rem;
+  width: 35rem;
 }
 .project-content{
   justify-content: center;
   padding: 0.7rem;
   margin: 0.5rem;
   border-radius: 1rem;
-  width: 40rem;
+  width: 32rem;
   border: rgb(150, 129, 193) 0.1rem solid;
   
 }
@@ -372,6 +388,7 @@ hr {
   padding-bottom: 1rem;
 }
 .project-details{
+  justify-self: center;
   text-align: center;
   display: flex;
   margin: 10px;
