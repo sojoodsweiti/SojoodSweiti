@@ -24,30 +24,40 @@ a,
 nav,
 .nav-links {
   display: flex;
+ 
 }
+
 nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  
 }
+
 .nav-links {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
 }
+
 a {
   color: black;
   text-decoration: none;
   text-decoration-color: white;
 }
+
 a:hover {
   color:  rgb(150, 129, 193);
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color:  rgb(150, 129, 193);
 }
+
 .logo {
   font-size: 2rem;
+}
+.logo img{
+  width: 17rem;
 }
 .logo:hover {
   cursor: default;
@@ -123,8 +133,8 @@ a:hover {
 
 section {
   padding-top:6vh;
-  padding-bottom:8vh;
-  margin: 0 10rem;
+  padding-bottom:6vh;
+  margin: 0 5rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -135,7 +145,11 @@ section {
   justify-content: center;
   gap: 3rem;
   
-  
+}
+.profile-image img{
+  height: 300px;
+  width: 450px;
+  border-radius: 7rem;
 }
 #about {
   display: flex;
