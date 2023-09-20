@@ -137,13 +137,14 @@ section {
   margin: 0 5rem;
   box-sizing: border-box;
   min-height: fit-content;
+  justify-content: center;
 }
 
 /* ----------- PROFILE SECTION ----------------- */
 #profile {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
   
 }
 .profile-image img{
@@ -240,22 +241,42 @@ section {
 .btn-container {
   gap: 1rem;
 }
-
-
-/* ----------------------- Internship SECTION ------------------ */
-#internship {
-  position: relative;
-}
-.intern-container {
+/*-------- About Section --------*/
+.about-container {
   justify-content: center;
   flex-direction: column;
   background-color:  rgb(36, 87, 132);
   border-radius: 2rem;
-}
-.intern-container {
   display: flex;
   padding: 1.5rem;
   margin-top: 1.5rem;
+  width:65rem;
+}
+.about__details-container {
+  /*padding: 1.5rem;*/
+  display: flex;
+  flex: 1;
+  text-align:justify;
+  display: inline-block;
+  
+}
+
+/* ----------------------- Internship SECTION ------------------ */
+#internship {
+  position: relative;
+  justify-content: center;
+  gap: 3rem;
+}
+.intern-container {
+  justify-content: center;
+ /* flex-direction: column;*/
+  background-color:  rgb(36, 87, 132);
+  border-radius: 2rem;
+  display: flex;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+  width:70rem;
 }
 .intern-container article{
   display: flex;
@@ -271,7 +292,6 @@ section {
   text-align:justify;
   display: inline-block;
   
-
 }
 .intern{
   display: flex;
@@ -372,14 +392,14 @@ hr {
   display: flex;
   padding: 1.5rem;
   margin: 2rem;
-  width: 35rem;
+  width: 33rem;
 }
 .project-content{
   justify-content: center;
   padding: 0.7rem;
   margin: 0.5rem;
   border-radius: 1rem;
-  width: 32rem;
+  width: 30rem;
   border: rgb(150, 129, 193) 0.1rem solid;
   
 }
