@@ -422,37 +422,31 @@ hr {
 
 .tech-details-container {
   padding: 1.5rem;
+  display: flex;
   flex: 1;
   background-color:  rgb(36, 87, 132);
   border-radius: 2rem;
   text-align: center;
-}
-
-.section-container {
-  gap: 4rem;
-  height: 80%;
-}
-
-.experience-details-container {
-  display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 65rem;
+  margin-left: 7rem;
 }
+
 
 .article-container {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
   justify-content: space-around;
 }
 
-article {
+.tech-item{
   display: flex;
-  width: 10rem;
+  width: 7rem;
   justify-content: space-around;
-  gap: 2rem;
+  gap:5px;
   padding: 1rem; 
 }
 
@@ -509,7 +503,7 @@ article .icon {
 /* ------- FOOTER SECTION --------- */
 
 footer {
-  height: 26vh;
+  height: 10vh;
   margin: 0 1rem;
   margin-bottom: 1rem;
 }
