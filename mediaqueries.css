@@ -46,9 +46,11 @@
   
   .courses{
     display: block;
-    
     justify-content: center;
     
+  }
+  .course-container{
+    width: 33rem;
   }
   .project-details{
     display: block;
