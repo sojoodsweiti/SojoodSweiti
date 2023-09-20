@@ -1,15 +1,59 @@
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 767px) {
+  body{
+   position: absolute;
+  }
+  #desktop-nav {
+    display: none;
+  }
+  .profile-image{
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+    height: 25vh;
+    margin: 2rem;
+  }
+  .logo{
+    font-size: 4rem;
+  }
   #profile {
+    height: 40vh;
+    margin-bottom: 2rem;
+  }
+  #about{
+    justify-content: center;
+  }
+  .about-container{
+    width: 30rem;
+  }
+  .intern-container{
+    width: 35rem;
+    justify-content: center;
+    margin-left: 20rem;
+  }
+  
+  .courses{
+    display: block;
+    justify-content: center;
+    margin-left: 20rem;
+  }
+  .project-details{
+    display: block;
+    justify-content: center;
+    margin-left: 20rem;
+  }
+}
+
+/*#profile {
     height: 83vh;
     margin-bottom: 6rem;
   }
   .about-containers {
     flex-wrap: wrap;
-  }
-}
-@media screen and (max-width: 1200px) {
-  #desktop-nav {
+  }*/
+/*@media screen and (max-width: 1200px) {
+  /*#desktop-nav {
     display: none;
   }
   #hamburger-nav {
@@ -44,7 +88,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
+ /* #contact,
   footer {
     height: 40vh;
   }
@@ -101,8 +145,8 @@
 
 
 
-@media screen and (max-width: 767px) {
-  section{
+@media screen and (max-width: 767px) {}
+  /*section{
     margin-left: 2rem;
   }
   body {
@@ -116,7 +160,7 @@
   }
   
   #profile {
-    /*height: 65vh;*/
+    /*height: 65vh;
    margin-bottom: 2rem;
     
   }
@@ -139,7 +183,7 @@
     flex-wrap: wrap;
   }
   /*--------*/
-  
+  /*
   #desktop-nav {
     display: none;
   }
@@ -174,7 +218,7 @@
   }
  /*--------*/
 
-
+/*
  #contact,
   footer {
     height: 40vh;
@@ -319,7 +363,7 @@
     font-size: 1rem;
     display:inline-block;
     
-  }
+  }*//*
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
@@ -361,5 +405,4 @@
   .text-container {
     text-align: justify;
   }
-}
-*/
+}*/
