@@ -8,6 +8,8 @@
     margin-right: 0;
     width: 40rem;
     justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
   }
   #desktop-nav {
     display: none;
@@ -17,15 +19,17 @@
   }
   #hamburger-nav {
     display: flex;
-    height: 25vh;
+    height: 16vh;
 
   }
   .logo{
-    font-size: 4rem;
+    font-size: 3rem;
   }
   #profile {
-    height: 40vh;
+    height: 30vh;
     margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
   }
   #about{
     justify-content: center;
@@ -34,13 +38,15 @@
     width: 30rem;
   }
   .intern-container{
-    width: 30rem;
-    margin-left: 3rem;
+    width: 35rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     justify-content: center;
   }
   
   .courses{
     display: block;
+    
     justify-content: center;
     
   }
@@ -49,8 +55,13 @@
     justify-content: center;
 
   }
-  .article-container{
-    display:inline-block;
+  .tech-details-container{
+    width: 35rem;
+    margin-left: 1rem;
+    
+  }
+  #contact{
+    height: inherit;
   }
 }
 
