@@ -67,6 +67,124 @@
   }
 }
 
+@media screen and (max-width: 1400px) {
+  body{
+   position: absolute;
+   justify-content: center;
+  }
+  section{
+    margin-left: 0;
+    margin-right: 0;
+   width: 80rem;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  #desktop-nav {
+    display: none;
+  }
+  .profile-image{
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+    height: 16vh;
+
+  }
+  .logo{
+    font-size: 3rem;
+  }
+
+  #profile {
+    height: 30vh;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+
+  .section__text {
+    align-items:baseline;
+    text-align: center;
+  }
+  .section__text p {
+    font-weight: 400;
+  }
+  .section__text__p1 {
+    text-align: center;
+  }
+  .section__text__p2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  #socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  .icon {
+    cursor: pointer;
+    height: 2rem;
+  }
+  /* ---- profile BUTTONS ----- */
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+  }
+
+
+  #about{
+    justify-content: center;
+  }
+  .about-container{
+    width: 50rem;
+  }
+  #internship{
+    justify-content: center;
+  }
+  .intern-container{
+    width: 50rem;
+    margin-left: 15rem;
+    margin-right: 1rem;
+    justify-content: center;
+  }
+  
+  .courses{
+    display: block;
+    justify-content: center;
+    
+  }
+  .course-container{
+    width: 50rem;
+    margin-left: 15rem;
+  }
+  .project-details{
+    display: block;
+    justify-content: center;
+    margin-left: 20rem;
+
+  }
+  .tech-details-container{
+    width: 40rem;
+    margin-left: 18rem;
+    
+  }
+  #contact{
+    height: inherit;
+  }
+}
 /*#profile {
     height: 83vh;
     margin-bottom: 6rem;
