@@ -266,6 +266,10 @@ section {
   position: relative;
   justify-content: center;
   gap: 3rem;
+  
+}
+.intern-cont{
+  justify-content: center;
 }
 .intern-container {
   justify-content: center;
@@ -393,6 +397,7 @@ hr {
   padding: 1.5rem;
   margin: 2rem;
   width: 33rem;
+  
 }
 .project-content{
   justify-content: center;
@@ -412,12 +417,14 @@ hr {
   text-align: center;
   display: flex;
   margin: 10px;
+  justify-content: center;
 }
 
 /*----------------Technologies SECTION ------------*/
 
 #technologies{
   position: relative;
+  justify-content: center;
 }
 
 .tech-details-container {
